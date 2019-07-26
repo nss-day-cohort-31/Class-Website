@@ -1,0 +1,344 @@
+p {
+  font-family: 'Barlow', sans-serif;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background: url("../images/BackGroundImages/2124232534.jpeg")fixed;
+    background-size: 50%;
+    background-color: black;
+}
+
+blockquote{
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #ddd;
+    padding: 2em;
+}
+
+h1{
+    color: #ed4b00;
+}
+.sectionTitle{
+    margin-top: 50px
+}
+
+.navbar{
+    /* background-image: linear-gradient(90deg,#f56a44,#f59e3b); */
+    background-color: rgb(0, 0, 0);
+    /* padding: 20px; */
+}
+/* .navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top{
+    background: #ff9100 !important;
+} */
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+    color: rgb(206, 206, 206)
+}
+.nav-spacing {
+  margin-right: 2em;
+}
+
+/* .navbar-light {
+    color: #b55b00
+} */
+
+#cohort31{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.nav-link{
+    color: #ffffff;
+}
+
+#jumbheader{
+    /* box-shadow: 2px 2px 2px rgb(167, 166, 166); */
+    background-color: #000000!important;
+    color: lightgray;
+
+}
+.header-text{
+    margin: 0 auto;
+    padding-top: 10px;
+    font-weight: bold;
+    height: 50px;
+    color: white;
+}
+
+.title-font {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.logo{
+    height: 50px;
+}
+
+
+.jumbotron.jumbotron-fluid{
+    background: none;
+   }
+
+/* .jumbotron.jumbotron-fluid img{
+    background: none;
+    width:100%;
+    margin-top: -80px;
+   } */
+
+main {
+    /* margin-bottom: 20px; */
+    margin-top: 20px;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+.row{
+    justify-content: center;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.col-md-3.cohortMems{
+    /* border: 1px solid lightgray; */
+    border-radius:10px;
+    box-shadow: 0px 0px 5px 8px  rgb(255, 255, 255);
+    margin: 40px;
+    margin-bottom: 25px;
+    background: white;
+    transition: 0.3s;
+}
+
+.col-sm-2.technologies{
+    border: none;
+    border-radius: none;
+    box-shadow: none;
+    transition: transform .2s;
+    min-width: 118px;
+    max-width: 118px;
+}
+
+.col-sm-2.technologies:hover {
+    transform: scale(1.2);
+}
+
+.navbar {
+    margin-bottom: 1px;
+}
+
+.anchor{
+    margin-top: 95px;
+    display: block;
+}
+
+.technos, .words{    
+    margin: 30px 100px 30px 100px;
+    background: white;
+    padding:20px;
+    border-radius: 20px;    
+    box-shadow: 0px 0px 5px 8px  rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
+    /* max-width: 500px;     */
+}
+
+.techs{
+    width: 70px;
+    margin: 20px 0px;
+  }
+
+  .thankYou{    
+    margin: 30px 100px 30px 100px;
+    background: white;
+    padding:20px;
+    border-radius: 20px;    
+    box-shadow: 0px 0px 5px 8px  rgb(255, 255, 255);
+}
+
+
+#ADONET {
+    width: 175px;
+    margin: 20px -20px;
+}
+
+#SQL {
+    width: 100px;
+}
+
+#VisualStudio {
+    width: 120px;
+}
+
+.words{
+    padding:50px;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+.card-img-top{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .image_off, #home:hover .image_on{
+    display:none
+ }
+ .image_on, #home:hover .image_off{
+    display:block
+ }
+ 
+
+.col,
+[class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+.modal-body{
+    display: block;
+  }
+
+  .studentContact{
+      text-align: center;
+      display: flex;
+      justify-content: space-evenly;
+      -webkit-justify-content: space-evenly;
+      margin-bottom: .75rem;
+  }
+
+  .contactIcons{
+      color: #000000;
+  }
+
+  .contactIcons:hover{
+      transform: scale(1.2);
+  }
+
+  .modal-header{
+    background-color: lightgray!important;
+    color: #000000;
+  }
+
+  .modal-body img{
+    width: 50%;
+    height: 50%;
+    box-shadow: 3px 3px 5px #cacaca;
+    border-radius: 10px;
+  }
+
+  .backButton{
+      margin-bottom: 1.5rem;
+      margin-top: 1.5rem;
+  }
+
+/* .navbar.navbar-light.bg-light.footer{
+    margin-top:10px;
+    font-size: 1em;
+    background-color: #238193!important;
+    color: white;
+} */
+
+#demo-date {
+    text-align: center;
+}
+
+#demo-date a {
+    color: #c5c1bb!important;
+}
+
+button{
+    cursor: pointer;
+}
+.btn-outline-primary{
+    color: #000000!important;
+    border-color: #000000!important;
+}
+
+.btn-outline-primary:not([disabled]):not(.disabled).active, .btn-outline-primary:not([disabled]):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {    
+    box-shadow: 0 0 0 0.2rem rgba(255, 149, 43, 0.5);
+}
+
+.btn-outline-primary.focus, .btn-outline-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255,149,43,.5);
+}
+
+.btn-outline-primary:hover{
+    color: white!important;
+    background-color: #000000!important;
+}
+
+.contactContainer {
+    justify-content: flex-end;
+}
+
+
+/* adjusts size of contact icons depending on size of card */
+@media (min-width: 992px) and (max-width: 1200px){
+    .fa-3x{
+        font-size: 2.5em!important;
+      }
+}
+
+@media (min-width: 530px) and (max-width: 991px){
+    .fa-3x{
+        font-size: 2em!important;
+      }
+}
+@media (min-width: 0px) and (max-width: 530px){
+    .fa-3x{
+        font-size: 2em!important;
+      }    
+    #cohort31SubTitle{
+        display: none;
+    }
+}
+
+
+@media (max-width: 900px) {
+
+    /* body {
+        background: url("../assets/images/bg.jpg") repeat;
+    } */
+    /* .jumbotron.jumbotron-fluid img{
+        background: white;
+        margin-top:30px;
+       } */
+       .jumbotron.jumbotron-fluid.sm-width{
+        width: 100%;
+    }
+       .header-text{
+        margin: 0 auto;
+        height: 30px;
+       }
+       .header-text h2{
+        font-size: 1.5em;
+        margin-top: -10px;
+       }
+       .modal-body{
+        display: block;
+      }
+      .modal-content {
+        width: 100%;
+    }
+       .modal-body img{
+        width: 100%;
+      }
+      main {
+        margin-bottom: 100px;
+        margin-top: -50px;
+        width: 100%
+      }
+      .navbar-brand img{
+        padding-right: none;
+      }
+}
