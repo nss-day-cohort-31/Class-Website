@@ -2,10 +2,10 @@ p {
   font-family: 'Barlow', sans-serif;
 }
 
-html, body {
+html, body{
     max-width: 100%;
     overflow-x: hidden;
-    background: url("../images/BackGroundImages/2124232534.jpeg")fixed;
+    background-image: url("images/orange");
     background-size: 50%;
     background-color: black;
 }
@@ -79,9 +79,9 @@ h1{
 }
 
 
-.jumbotron.jumbotron-fluid{
+/* .jumbotron.jumbotron-fluid{
     background: none;
-   }
+   } */
 
 /* .jumbotron.jumbotron-fluid img{
     background: none;
