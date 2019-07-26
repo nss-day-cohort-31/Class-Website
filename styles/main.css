@@ -5,7 +5,7 @@ p {
 html, body{
     max-width: 100%;
     overflow-x: hidden;
-    background-image: url("images/orange");
+    background-image: url("../images/BackgroundImages/orangeBlacHexagonsR.jpg");
     background-size: 50%;
     background-color: black;
 }
@@ -44,6 +44,10 @@ h1{
 /* .navbar-light {
     color: #b55b00
 } */
+
+#spacer {
+    height:82.5px;
+}
 
 #cohort31{
     display: inline-block;
