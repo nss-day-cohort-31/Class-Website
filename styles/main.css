@@ -17,7 +17,8 @@ blockquote{
     padding: 2em;
 }
 
-h1{
+.text-center{
+    margin-top: 10px;
     color: #ed4b00;
 }
 .sectionTitle{
@@ -66,17 +67,20 @@ h1{
 
 }
 .header-text{
-    margin: 0 auto;
-    padding-top: 10px;
-    font-weight: bold;
-    height: 50px;
+    font-weight: bold;    
     color: white;
-}
-
-.title-font {
     text-align: center;
     vertical-align: middle;
 }
+
+.subtitle-tont {
+    font-weight: bold;    
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
 
 .logo{
     height: 50px;
@@ -259,6 +263,7 @@ main {
 
 #demo-date a {
     color: #c5c1bb!important;
+    text-align: center;
 }
 
 button{
