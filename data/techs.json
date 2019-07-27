@@ -79,7 +79,16 @@
       "name": ".NET Core",
       "image": "images/techs/dotnetcore.png",
       "link": "https://www.microsoft.com/net/"
+<<<<<<< HEAD
     },    
+=======
+    },
+    {
+      "name": "VisualStudio",
+      "image": "images/techs/visualstudio.jpg",
+      "link": "https://www.visualstudio.com/vs/"
+    },
+>>>>>>> 52758ef53c35e8b0b5c3cfe2dcc4570db435f266
     {
       "name": "ASP.NET MVC",
       "image": "images/techs/aspnetMVC.png",
