@@ -258,5 +258,11 @@ button{
     .cohort31SubTitle{
         display: none;
     }
+    .navbar-brand{
+        display: flex;
+        justify-content: center;
+        color: rgb(206, 206, 206);
+        font-size: 14px
+    }
 }
 
