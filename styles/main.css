@@ -1,26 +1,44 @@
-p {
-  font-family: 'Barlow', sans-serif;
-}
-
-.navbar-dark {    
-    border-bottom: 3px solid #ff8400;
-    /* box-shadow: 0px 0px 14px #101010; */
-}
-
-.navbar-dark .navbar-nav .nav-link.active {
-    color: #ff8400;
-}
-
-.nav-link.active {
-    color: #ff8400;
-}
-
 html, body{
     max-width: 100%;
     overflow-x: hidden;
     background-image: url("../images/BackgroundImages/orangeBlacHexagonsR.jpg");
     background-size: 50%;
     background-color: black;        
+}
+
+.navbar-dark {    
+    border-bottom: 3px solid #ff8400;   
+}
+
+.navbar{
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top{
+    background: #ff9100 !important;
+}
+
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+    color: rgb(206, 206, 206)
+}
+
+.nav-spacing {
+    margin-right: 2em;
+}
+
+.navbar-light {
+    color: #b55b00
+}
+
+.spacer{
+   
+    height: 79px;
+}
+
+p {
+  font-family: 'Barlow', sans-serif;
 }
 
 blockquote{
@@ -39,32 +57,17 @@ blockquote{
     margin-top: 50px
 }
 
-.navbar{
-    /* background-image: linear-gradient(90deg,#f56a44,#f59e3b); */
-    background-color: rgb(0, 0, 0);
-    /* padding: 20px; */
-}
-.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top{
-    background: #ff9100 !important;
-}
-.navbar-brand{
-    display: flex;
-    justify-content: center;
-    color: rgb(206, 206, 206)
-}
-.nav-spacing {
-  margin-right: 2em;
+.offset {
+    height: 82.5px;
 }
 
-.navbar-light {
-    color: #b55b00
+.neg-offset {
+    position: relative;
+    top: -110px;
+    display: block;
 }
 
-#spacer {
-    height:82.5px;
-}
-
-#cohort31{
+.cohort31{
     display: inline-block;
     color: #ffffff;
     font-size: 20px;
@@ -74,12 +77,12 @@ blockquote{
     color: #ffffff;
 }
 
-#jumbheader{
-    /* box-shadow: 2px 2px 2px rgb(167, 166, 166); */
-    background-color: #000000!important;
-    color: lightgray;
-
+.navbar-collapse{
+    justify-content: flex-end;
+    font-weight: bold;
+    text-transform: uppercase;
 }
+
 .header-text{
     font-weight: bold;    
     color: white;
@@ -87,7 +90,7 @@ blockquote{
     vertical-align: middle;
 }
 
-.subtitle-tont {
+.subtitle-font {
     font-weight: bold;    
     color: white;
     text-align: center;
@@ -100,20 +103,7 @@ blockquote{
     height: 50px;
 }
 
-
-/* .jumbotron.jumbotron-fluid{
-    background: none;
-   } */
-
-/* .jumbotron.jumbotron-fluid img{
-    background: none;
-    width:100%;
-    margin-top: -80px;
-   } */
-
-main {
-    /* margin-bottom: 20px; */
-    /* margin-top: 20px; */
+main {    
     width: 100%;
     overflow-y: hidden;
     overflow-x: hidden;    
@@ -124,11 +114,6 @@ main {
     justify-content: center;
 }
 
-.navbar-collapse{
-    justify-content: flex-end;
-    font-weight: bold;
-    text-transform: uppercase;
-}
 
 .col-md-3.cohortMems{
     border-radius:10px;
@@ -144,13 +129,10 @@ main {
     box-shadow: 0px 0px 10px 11px rgba(255,132,0,1);  
 }
 
-.col-sm-2.technologies{
-    border: none;
-    border-radius: none;
-    box-shadow: none;
+.col-sm-2.technologies{    
     transition: transform .2s;
-    min-width: 118px;
-    max-width: 118px;
+    min-width: 100px;
+    max-width: 100px;
 }
 
 .col-sm-2.technologies:hover {
@@ -279,13 +261,6 @@ main {
       margin-top: 1.5rem;
   }
 
-/* .navbar.navbar-light.bg-light.footer{
-    margin-top:10px;
-    font-size: 1em;
-    background-color: #238193!important;
-    color: white;
-} */
-
 #demo-date {
     text-align: center;
 }
@@ -304,36 +279,31 @@ button{
 }
 
 .btn-outline-primary:not([disabled]):not(.disabled).active, .btn-outline-primary:not([disabled]):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {    
-    box-shadow: 0 0 0 0.2rem rgba(255, 149, 43, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(255,132,0,1);
 }
 
 .btn-outline-primary.focus, .btn-outline-primary:focus {
-    box-shadow: 0 0 0 0.2rem rgba(255,149,43,.5);
+    box-shadow: 0 0 0 0.2rem rgba(255,132,0,1);
 }
 
 .btn-outline-primary:hover{
     color: white!important;
     background-color: #000000!important;
 }
-/* 
-.contactContainer {
-    justify-content: flex-end;
-} */
 
 .container{
     justify-content: space-around;
     max-width: 100%;
 }
 
-
 /* adjusts size of contact icons depending on size of card */
-@media (min-width: 992px) and (max-width: 1200px){
+@media (min-width: 1000px){
     .fa-3x{
         font-size: 2.5em!important;
-      }
+    }
 }
 
-@media (min-width: 530px) and (max-width: 991px){
+@media (min-width: 530px) and (max-width: 999px){
     .fa-3x{
         font-size: 2em!important;
       }
@@ -342,13 +312,13 @@ button{
     .fa-3x{
         font-size: 2em!important;
       }    
-    #cohort31SubTitle{
+    .cohort31SubTitle{
         display: none;
     }
 }
 
 
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
 
     body {
         background: url("../assets/images/bg.jpg") repeat;
@@ -386,4 +356,4 @@ button{
       .navbar-brand{
           font-size: 14px;
       }
-}
+} */
