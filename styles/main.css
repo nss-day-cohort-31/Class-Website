@@ -126,6 +126,10 @@ main {
     transition: 0.3s;
 }
 
+.col-md-3.cohortMems:hover{  
+    box-shadow: 0px 0px 10px 11px rgba(255,132,0,1);  
+}
+
 .col-sm-2.technologies{
     border: none;
     border-radius: none;
@@ -197,6 +201,17 @@ main {
 .card-img-top{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+  }
+
+.card-body{
+    max-height: 100%;
+    max-width: 100%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+    min-height: 230px;
   }
 
   .image_off, #home:hover .image_on{
@@ -348,9 +363,7 @@ button{
        .modal-body img{
         width: 100%;
       }
-      main {
-        /* margin-bottom: 100px; */
-        /* margin-top: -50px; */
+      main {       
         width: 100%
       }
       .navbar-brand img{
