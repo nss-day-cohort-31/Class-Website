@@ -117,7 +117,7 @@
     },
     {
       "name": "Azure Data Studio",
-      "image": "images/techs/AzureDataStudio.jpg",
+      "image": "images/techs/AzureDataStudio.png",
       "link": "https://docs.microsoft.com/en-us/sql/azure-data-studio/what-is?view=sql-server-2017"
     },
     {
