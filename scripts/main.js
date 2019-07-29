@@ -45,7 +45,16 @@ function cohortMembers(list) {
     }
     studentContact += `</div>`
 
-    let studentInfo = `<div class="col-md-3 cohortMems"><a id="home">
+    function isHired (bool) {
+      if (bool === true) {
+        return `hired`
+      }
+      else {
+        return ``
+      }
+    }
+
+    let studentInfo = `<div class="col-md-3 cohortMems ${isHired(item.isHired)}"><a id="home">
           <img class="card-img-top image_on" src="${item.proImg}" alt="${item.firstName} ${item.lastName}" data-toggle="modal" data-target="#cohortMember${item.id}" style="cursor:pointer;"><img class="card-img-top image_off" src="${item.funImg}" alt="${item.firstName} ${item.lastName}" data-toggle="modal" data-target="#cohortMember${item.id}" style="cursor:pointer;"></a>
           <div class="card-body">
             <h4 class="card-title title-font">${item.firstName} ${item.lastName}</h4>`

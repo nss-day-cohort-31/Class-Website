@@ -12,7 +12,7 @@ main{
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
 }
 
 .navbar{
@@ -57,7 +57,7 @@ p {
 
 .text-center{
     margin-top: 10px;
-    color: #ed4b00;
+    color: #ff8400;
 }
 
 .offset{
@@ -85,6 +85,11 @@ p {
     margin-bottom: 20px;
 }
 
+#cohort{
+    display: flex;
+    justify-content: space-evenly;    
+}
+
 .row{
     justify-content: center;
 }
@@ -92,15 +97,23 @@ p {
 .col-md-3.cohortMems{
     border-radius:10px;
     box-shadow: 0px 0px 5px 8px  rgb(255, 255, 255);
-    margin: 25px;
-    max-width: 250px;
-    justify-content: space-around;
+    margin: 35px;
+    max-width: 300px;    
     background: white;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .col-md-3.cohortMems:hover{  
-    box-shadow: 0px 0px 10px 11px rgba(255,132,0,1);  
+    box-shadow: 0px 0px 10px 11px #ff8400;  
+}
+
+.col-md-3.cohortMems.hired{
+    border-radius:10px;
+    box-shadow: 0px 0px 10px 11px  rgb(9, 255, 0);
+    margin: 35px;
+    max-width: 300px;    
+    background: white;
+    transition: 0.2s;
 }
 
 .technos{    
@@ -186,8 +199,9 @@ p {
 }
 
 .modal-header{
-    background-color: lightgray!important;
-    color: #000000;
+    background-color: rgb(0, 0, 0)!important;
+    color: #ffffff;
+    border-bottom: 3px solid #ff8400
 }
 
 .modal-body img{
@@ -221,11 +235,11 @@ button{
 }
 
 .btn-outline-primary:not([disabled]):not(.disabled).active, .btn-outline-primary:not([disabled]):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle{    
-    box-shadow: 0 0 0 0.2rem rgba(255,132,0,1);
+    box-shadow: 0 0 0 0.2rem #ff8400;
 }
 
 .btn-outline-primary.focus, .btn-outline-primary:focus{
-    box-shadow: 0 0 0 0.2rem rgba(255,132,0,1);
+    box-shadow: 0 0 0 0.2rem #ff8400;
 }
 
 .btn-outline-primary:hover{
