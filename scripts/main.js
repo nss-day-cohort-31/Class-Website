@@ -55,7 +55,7 @@ function cohortMembers(list) {
 
     function isHiredStamp (bool) {
       if (bool === true) {
-        return `<img class="image1 image_on" src="/images/icons/hired1.png"><img class="image1 image_off" src="/images/icons/hired1.png">`
+        return `<img class="image1 image_on" src="hired1.png"><img class="image1 image_off" src="hired1.png">`
       } else {
         return ``
       }
