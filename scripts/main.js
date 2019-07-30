@@ -48,14 +48,24 @@ function cohortMembers(list) {
     function isHired (bool) {
       if (bool === true) {
         return `hired`
+      } else {
+        return ``
       }
-      else {
+    }
+
+    function isHiredStamp (bool) {
+      if (bool === true) {
+        return `<img class="image1 image_on" src="images/icons/hired1.png"><img class="image1 image_off" src="images/icons/hired1.png">`
+      } else {
         return ``
       }
     }
 
     let studentInfo = `<div class="col-md-3 cohortMems ${isHired(item.isHired)}"><a id="home">
-          <img class="card-img-top image_on" src="${item.proImg}" alt="${item.firstName} ${item.lastName}" data-toggle="modal" data-target="#cohortMember${item.id}" style="cursor:pointer;"><img class="card-img-top image_off" src="${item.funImg}" alt="${item.firstName} ${item.lastName}" data-toggle="modal" data-target="#cohortMember${item.id}" style="cursor:pointer;"></a>
+          <img class="card-img-top image_on" src="${item.proImg}" alt="${item.firstName} ${item.lastName}" data-toggle="modal" data-target="#cohortMember${item.id}" style="cursor:pointer;">
+          ${isHiredStamp(item.isHired)}
+          <img class="card-img-top image_off" src="${item.funImg}" alt="${item.firstName} ${item.lastName}" data-toggle="modal" data-target="#cohortMember${item.id}" style="cursor:pointer;">
+          ${isHiredStamp(item.isHired)}</a>
           <div class="card-body">
             <h4 class="card-title title-font">${item.firstName} ${item.lastName}</h4>`
     //if student didn't provide a reelthemin quote then nothing is displayed
