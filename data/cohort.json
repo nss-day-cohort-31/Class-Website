@@ -126,6 +126,20 @@
             "funImg": "images/classmates/JoelFun.jpg"
         },
         {
+            "id": 11,
+            "firstName": "Jonathan",
+            "lastName": "Schaffer",
+            "isHired": false,
+            "reelThemIn": "Keeping stepping over like a walking horse. - Andy Collins",
+            "bio": "When I was growing up I always loved two things - Technology and Cars. After I tried college for a period of time, I started doing different jobs to support my new family. I have worked in a warehouse - to retail stores and most recently, in the Auto Industry. The Auto Industry has been a very fun and exciting adventure. After talking to some family friends, I decided to pursue my other love and decided to pursue Software Development. What I have learned in the past couple of months is how much I truly enjoy coding- the challenge to solve a problem and work as a team to get things done. I am excited to see where this journey takes me.",
+            "github": "https://github.com/jonizzy113",
+            "linkedIn": "https://www.linkedin.com/in/jonathan-schaffer/",
+            "portfolio": "http://jonizzy113.github.io/",
+            "email": "jonizzyschaffer@gmail.com",
+            "proImg": "images/classmates/JonPro.jpg",
+            "funImg": "images/classmates/JonFun.jpg"
+        },
+        {
             "id": 12,
             "firstName": "Josh",
             "lastName": "Hibray",
@@ -221,20 +235,6 @@
             "email": "jameka.echols@gmail.com",
             "proImg": "images/classmates/JamekaPro.jpg",
             "funImg": "images/classmates/JamekaFun.jpg"
-        },
-        {
-            "id": 11,
-            "firstName": "Jonathan",
-            "lastName": "Schaffer",
-            "isHired": true,
-            "reelThemIn": "Keeping stepping over like a walking horse. - Andy Collins",
-            "bio": "When I was growing up I always loved two things - Technology and Cars. After I tried college for a period of time, I started doing different jobs to support my new family. I have worked in a warehouse - to retail stores and most recently, in the Auto Industry. The Auto Industry has been a very fun and exciting adventure. After talking to some family friends, I decided to pursue my other love and decided to pursue Software Development. What I have learned in the past couple of months is how much I truly enjoy coding- the challenge to solve a problem and work as a team to get things done. I am excited to see where this journey takes me.",
-            "github": "https://github.com/jonizzy113",
-            "linkedIn": "https://www.linkedin.com/in/jonathan-schaffer/",
-            "portfolio": "http://jonizzy113.github.io/",
-            "email": "jonizzyschaffer@gmail.com",
-            "proImg": "images/classmates/JonPro.jpg",
-            "funImg": "images/classmates/JonFun.jpg"
         }
     ]
 }
