@@ -3,7 +3,8 @@ html, body{
     overflow-x: hidden;
     background-image: url("../images/BackgroundImages/orangeBlacHexagonsR.jpg");
     background-size: 50%;
-    background-color: black;        
+    background-color: black;
+    background-attachment: fixed;        
 }
 
 main{    
