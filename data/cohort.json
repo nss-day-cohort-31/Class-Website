@@ -112,20 +112,6 @@
             "funImg": "images/classmates/CliffFun.jpg"
         },
         {
-            "id": 10,
-            "firstName": "Joel",
-            "lastName": "Mondesir",
-            "isHired": false,
-            "reelThemIn": "...there's a difference between knowing the path, and walking the path. - Morpheus",
-            "bio": "Originally from Brooklyn. New York, I enlisted in the Army in 2004. I served with 3rd Infantry Division on several tours to Iraq and Afghanistan. My overall military experience was amazing, as the Army gave me the discipline I needed to carry me into the next leg of my life.</p><p class='card-text'> I joined the Savannah-Chatham Metro Police Department as a Police Officer in 2012. Law enforcement seemed like a natural choice and transition from the military, but deep inside, I wanted to create and to be a part of a more creative career. In 2017 and after some serious soul searching, I decided to leave law enforcement for something that would foster my natural curiosity, expand my horizons and quench my thirst for a more fulfilling career.</p><p class='card-text'> The full-stack web developer course at Nashville Software School gave me the opportunity to study and learn from some of the most amazing people that I've ever had the privilege of knowing.",
-            "github": "https://github.com/liftthewholestack",
-            "linkedIn": "https://www.linkedin.com/in/joel-mondesir",
-            "portfolio": "",
-            "email": "joey.m.dev@gmail.com",
-            "proImg": "images/classmates/JoelPro.jpg",
-            "funImg": "images/classmates/JoelFun.jpg"
-        },
-        {
             "id": 11,
             "firstName": "Jonathan",
             "lastName": "Schaffer",
@@ -235,6 +221,20 @@
             "email": "jameka.echols@gmail.com",
             "proImg": "images/classmates/JamekaPro.jpg",
             "funImg": "images/classmates/JamekaFun.jpg"
+        },
+        {
+            "id": 10,
+            "firstName": "Joel",
+            "lastName": "Mondesir",
+            "isHired": true,
+            "reelThemIn": "...there's a difference between knowing the path, and walking the path. - Morpheus",
+            "bio": "Originally from Brooklyn. New York, I enlisted in the Army in 2004. I served with 3rd Infantry Division on several tours to Iraq and Afghanistan. My overall military experience was amazing, as the Army gave me the discipline I needed to carry me into the next leg of my life.</p><p class='card-text'> I joined the Savannah-Chatham Metro Police Department as a Police Officer in 2012. Law enforcement seemed like a natural choice and transition from the military, but deep inside, I wanted to create and to be a part of a more creative career. In 2017 and after some serious soul searching, I decided to leave law enforcement for something that would foster my natural curiosity, expand my horizons and quench my thirst for a more fulfilling career.</p><p class='card-text'> The full-stack web developer course at Nashville Software School gave me the opportunity to study and learn from some of the most amazing people that I've ever had the privilege of knowing.",
+            "github": "https://github.com/liftthewholestack",
+            "linkedIn": "https://www.linkedin.com/in/joel-mondesir",
+            "portfolio": "",
+            "email": "joey.m.dev@gmail.com",
+            "proImg": "images/classmates/JoelPro.jpg",
+            "funImg": "images/classmates/JoelFun.jpg"
         }
     ]
 }
