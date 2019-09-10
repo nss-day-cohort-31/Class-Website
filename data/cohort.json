@@ -42,20 +42,6 @@
             "funImg": "images/classmates/AnneFun.jpg"
         },
         {
-            "id": 4,
-            "firstName": "Billy",
-            "lastName": "Mathison",
-            "isHired": false,
-            "reelThemIn": "It's not what you look at that matters, it's what you see. - Henry David Thoreau",
-            "bio": "I am a problem solver. I spent 16 years working in mental health, helping others solve their problems. Eventually I came to the realization that while I loved helping clients through their problems, ultimately I had no control over the final outcome.</p><p class='card-text'> What I love most about being a software developer is that I have the ability to solve any problem. I still have the satisfaction of breaking something apart and trying to understand what the issue is. Now, I also get to solve that problem. There is something so incredibly satisfying about not only being able to understand the problem, but being able to create a solution and implement it.</p><p class='card-text'> Software development has allowed me to expand upon a part of my previous career that I enjoyed most while also providing the ability to directly solve a problem.",
-            "github": "https://github.com/wlmathison",
-            "linkedIn": "https://www.linkedin.com/in/billy-mathison/",
-            "portfolio": "https://wlmathison.dev/",
-            "email": "wlmathison@gmail.com",
-            "proImg": "images/classmates/MRBillyPro.jpg",
-            "funImg": "images/classmates/MRBillyFun.jpg"
-        },
-        {
             "id": 5,
             "firstName": "Billy",
             "lastName": "Mitchell",
@@ -82,20 +68,6 @@
             "email": "briantjobe@gmail.com",
             "proImg": "images/classmates/BrianPro.jpg",
             "funImg": "images/classmates/BrianFun.jpg"
-        },
-        {
-            "id": 7,
-            "firstName": "Chris Blue",
-            "lastName": "Morgan",
-            "isHired": false,
-            "reelThemIn": "Sittin' around, waiting for an airplane. Don't know how to fly, but that's okay. - Mikey Houser",
-            "bio": "I first recognized my passion for software development in high school during an Object-Oriented Programming course. At the time, I was exploring different industries such as retail management and restaurant service, but never felt fulfillment from those roles. I decided that I was ready for more of a challenge in my life. I was certain of two things: my love for technology, and my enjoyment for creating things. This epiphany lead me to become a student at Nashville Software School.</p><p class='card-text'> Once I fully immersed myself into the environment of a software developer, I quickly noticed the great satisfaction that came along with learning so many new technologies. The quest for knowledge has become extremely fulfilling, and I wish to continue learning more every day.",
-            "github": "https://github.com/bluemorgan23",
-            "linkedIn": "http://linkedin.com/in/chris-blue-morgan",
-            "portfolio": "https://bluemorgan23.github.io/cm-portfolio/",
-            "email": "bluemorgan2323@gmail.com",
-            "proImg": "images/classmates/ChrisPro.jpg",
-            "funImg": "images/classmates/ChrisFun.jpg"
         },
         {
             "id": 8,
@@ -207,6 +179,34 @@
             "email": "Selam0315@gmail.com",
             "proImg": "images/classmates/SelamPro.jpg",
             "funImg": "images/classmates/SelamFun.jpg"
+        },
+        {
+            "id": 4,
+            "firstName": "Billy",
+            "lastName": "Mathison",
+            "isHired": false,
+            "reelThemIn": "It's not what you look at that matters, it's what you see. - Henry David Thoreau",
+            "bio": "I am a problem solver. I spent 16 years working in mental health, helping others solve their problems. Eventually I came to the realization that while I loved helping clients through their problems, ultimately I had no control over the final outcome.</p><p class='card-text'> What I love most about being a software developer is that I have the ability to solve any problem. I still have the satisfaction of breaking something apart and trying to understand what the issue is. Now, I also get to solve that problem. There is something so incredibly satisfying about not only being able to understand the problem, but being able to create a solution and implement it.</p><p class='card-text'> Software development has allowed me to expand upon a part of my previous career that I enjoyed most while also providing the ability to directly solve a problem.",
+            "github": "https://github.com/wlmathison",
+            "linkedIn": "https://www.linkedin.com/in/billy-mathison/",
+            "portfolio": "https://wlmathison.dev/",
+            "email": "wlmathison@gmail.com",
+            "proImg": "images/classmates/MRBillyPro.jpg",
+            "funImg": "images/classmates/MRBillyFun.jpg"
+        },
+        {
+            "id": 7,
+            "firstName": "Chris Blue",
+            "lastName": "Morgan",
+            "isHired": false,
+            "reelThemIn": "Sittin' around, waiting for an airplane. Don't know how to fly, but that's okay. - Mikey Houser",
+            "bio": "I first recognized my passion for software development in high school during an Object-Oriented Programming course. At the time, I was exploring different industries such as retail management and restaurant service, but never felt fulfillment from those roles. I decided that I was ready for more of a challenge in my life. I was certain of two things: my love for technology, and my enjoyment for creating things. This epiphany lead me to become a student at Nashville Software School.</p><p class='card-text'> Once I fully immersed myself into the environment of a software developer, I quickly noticed the great satisfaction that came along with learning so many new technologies. The quest for knowledge has become extremely fulfilling, and I wish to continue learning more every day.",
+            "github": "https://github.com/bluemorgan23",
+            "linkedIn": "http://linkedin.com/in/chris-blue-morgan",
+            "portfolio": "https://bluemorgan23.github.io/cm-portfolio/",
+            "email": "bluemorgan2323@gmail.com",
+            "proImg": "images/classmates/ChrisPro.jpg",
+            "funImg": "images/classmates/ChrisFun.jpg"
         },
         {
             "id": 9,
