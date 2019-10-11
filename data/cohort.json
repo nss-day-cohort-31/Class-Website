@@ -98,19 +98,6 @@
             "funImg": "images/classmates/MeagFun.jpg"
         },
         {
-            "id": 14,
-            "firstName": "Michael",
-            "lastName": "Yankura",
-            "reelThemIn": "Success is not final; failure is not fatal: It is the courage to continue that counts. - Winston S. Churchill",
-            "bio": "I graduated from Middle Tennessee State University in 2016 earning a bachelor degree in Information Systems. When I initially selected the program I knew I wanted to pursue a career in technology. My interests at the time were in networking and security.  I started my career out in the IT support lane, which was okay for starting out but I wanted to do more than troubleshooting workstation.  While working with the state in the Higher Education Commission (THEC) I heard about Nashville Software School through a colleague. After checking the stats for myself I was impressed and decided to attend one of their information sessions.</p><p class='card-text'> In late 2018 I applied to Nashville Software School and was later accepted for cohort 31. When I started programming I became intrigued with all of the things you could do with code. It was after that I knew that I wanted to pursue a career in software development",
-            "github": "https://github.com/myankura",
-            "linkedIn": "https://www.linkedin.com/in/michael-yankura/",
-            "portfolio": "https://myankura.github.io/portfolio/",
-            "email": "myankura210@gmail.com",
-            "proImg": "images/classmates/MichaelPro.jpg",
-            "funImg": "images/classmates/MichaelFun.jpg"
-        },
-        {
             "id": 15,
             "firstName": "Rose Ku'uleialoha",
             "lastName": "Wisotzky",
@@ -235,6 +222,20 @@
             "email": "jonizzyschaffer@gmail.com",
             "proImg": "images/classmates/JonPro.jpg",
             "funImg": "images/classmates/JonFun.jpg"
+        },
+        {
+            "id": 14,
+            "firstName": "Michael",
+            "lastName": "Yankura",
+            "isHired": true,
+            "reelThemIn": "Success is not final; failure is not fatal: It is the courage to continue that counts. - Winston S. Churchill",
+            "bio": "I graduated from Middle Tennessee State University in 2016 earning a bachelor degree in Information Systems. When I initially selected the program I knew I wanted to pursue a career in technology. My interests at the time were in networking and security.  I started my career out in the IT support lane, which was okay for starting out but I wanted to do more than troubleshooting workstation.  While working with the state in the Higher Education Commission (THEC) I heard about Nashville Software School through a colleague. After checking the stats for myself I was impressed and decided to attend one of their information sessions.</p><p class='card-text'> In late 2018 I applied to Nashville Software School and was later accepted for cohort 31. When I started programming I became intrigued with all of the things you could do with code. It was after that I knew that I wanted to pursue a career in software development",
+            "github": "https://github.com/myankura",
+            "linkedIn": "https://www.linkedin.com/in/michael-yankura/",
+            "portfolio": "https://myankura.github.io/portfolio/",
+            "email": "myankura210@gmail.com",
+            "proImg": "images/classmates/MichaelPro.jpg",
+            "funImg": "images/classmates/MichaelFun.jpg"
         }
     ]
 }
