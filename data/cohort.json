@@ -42,20 +42,6 @@
             "funImg": "images/classmates/AnneFun.jpg"
         },
         {
-            "id": 6,
-            "firstName": "Brian",
-            "lastName": "Jobe",
-            "isHired": false,
-            "reelThemIn": "Set the gearshift for the high gear of your soul, you've got to run like an antelope out of control! - Trey Anastasio",
-            "bio": "After four years of expanding roles in the logistics industry, I recognized that the aspect of my job I found most rewarding was solving the complex logistical problems in a fast paced and time sensitive environment, While I had been successful, I felt compelled to find a profession where my passions and talents were better aligned and I began learning software development based on that goal. That decision has already had major positive impacts on my life; my enthusiasm for learning has been reinvigorated, and a creative desire long dormant has flourished, and now drives my curiosity forward.",
-            "github": "https://github.com/greenskybluephish",
-            "linkedIn": "https://linkedin.com/in/brianjobetn",
-            "portfolio": "",
-            "email": "briantjobe@gmail.com",
-            "proImg": "images/classmates/BrianPro.jpg",
-            "funImg": "images/classmates/BrianFun.jpg"
-        },
-        {
             "id": 8,
             "firstName": "Clifton",
             "lastName": "Matuszewski",
@@ -166,6 +152,20 @@
             "email": "wemitchell3@gmail.com",
             "proImg": "images/classmates/FRBillyPro.jpg",
             "funImg": "images/classmates/FRBillyFun.jpg"
+        },
+        {
+            "id": 6,
+            "firstName": "Brian",
+            "lastName": "Jobe",
+            "isHired": true,
+            "reelThemIn": "Set the gearshift for the high gear of your soul, you've got to run like an antelope out of control! - Trey Anastasio",
+            "bio": "After four years of expanding roles in the logistics industry, I recognized that the aspect of my job I found most rewarding was solving the complex logistical problems in a fast paced and time sensitive environment, While I had been successful, I felt compelled to find a profession where my passions and talents were better aligned and I began learning software development based on that goal. That decision has already had major positive impacts on my life; my enthusiasm for learning has been reinvigorated, and a creative desire long dormant has flourished, and now drives my curiosity forward.",
+            "github": "https://github.com/greenskybluephish",
+            "linkedIn": "https://linkedin.com/in/brianjobetn",
+            "portfolio": "",
+            "email": "briantjobe@gmail.com",
+            "proImg": "images/classmates/BrianPro.jpg",
+            "funImg": "images/classmates/BrianFun.jpg"
         },
         {
             "id": 7,
