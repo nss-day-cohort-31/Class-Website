@@ -1,19 +1,5 @@
 {
     "cohort": [{
-            "id": 1,
-            "firstName": "Alex",
-            "lastName": "Thacker",
-            "isHired": false,
-            "reelThemIn": "Those who dare to fail miserably can achieve greatly. - JFK",
-            "bio": "My sister first introduced me to software development after she graduated from Nashville Software School in 2017. I decided to do some independent study and focused on learning HTML and CSS. My desire to learn grew greater each day and I decided to formalize my education and applied to Nashville Software School. I find the continual problem solving that software development allows me to do is rewarding and fulfilling. I have found my passion and am excited to see where this career path takes me.",
-            "github": "https://github.com/Alex-Thacker",
-            "linkedIn": "https://www.linkedin.com/in/alex-h-thacker/",
-            "portfolio": "https://alex-thacker.github.io/",
-            "email": "Thacker.Alex@yahoo.com",
-            "proImg": "images/classmates/AlexPro.jpg",
-            "funImg": "images/classmates/AlexFun.jpg"
-        },
-        {
             "id": 2,
             "firstName": "Ali",
             "lastName": "Abdulle",
@@ -98,20 +84,6 @@
             "funImg": "images/classmates/RoseFun.jpg"
         },
         {
-            "id": 16,
-            "firstName": "Samuel",
-            "lastName": "Britt",
-            "isHired": false,
-            "reelThemIn": "There’s nothing wrong with having a tree as a friend. - Bob Ross",
-            "bio": "I've worked in the hospitality industry for the past eight years. Throughout my time, I have become skilled at maintaining speed, efficiency, quality, and composure under intense pressure. However, at the end of the day, I work to help and serve others, but I truly live to create works of art and inspire those around me to explore their creative boundaries.</p><p class='card-text'> Since discovering the possibilities that programming provides as a creative outlet, I have found joy in creating new projects and converting abstract concepts into concrete works of art. A career in Software Development has paved a lifestyle of never-ending learning, growth, and creative expression, which is a mindset I strive to live by.",
-            "github": "https://github.com/SamBritt",
-            "linkedIn": "https://www.linkedin.com/in/sam-britt-068688a0/",
-            "portfolio": "",
-            "email": "sam.britt2@yahoo.com",
-            "proImg": "images/classmates/SamPro.jpg",
-            "funImg": "images/classmates/SamFun.jpg"
-        },
-        {
             "id": 17,
             "firstName": "Selamawit",
             "lastName": "Gebrekidan",
@@ -124,6 +96,20 @@
             "email": "Selam0315@gmail.com",
             "proImg": "images/classmates/SelamPro.jpg",
             "funImg": "images/classmates/SelamFun.jpg"
+        },
+        {
+            "id": 1,
+            "firstName": "Alex",
+            "lastName": "Thacker",
+            "isHired": true,
+            "reelThemIn": "Those who dare to fail miserably can achieve greatly. - JFK",
+            "bio": "My sister first introduced me to software development after she graduated from Nashville Software School in 2017. I decided to do some independent study and focused on learning HTML and CSS. My desire to learn grew greater each day and I decided to formalize my education and applied to Nashville Software School. I find the continual problem solving that software development allows me to do is rewarding and fulfilling. I have found my passion and am excited to see where this career path takes me.",
+            "github": "https://github.com/Alex-Thacker",
+            "linkedIn": "https://www.linkedin.com/in/alex-h-thacker/",
+            "portfolio": "https://alex-thacker.github.io/",
+            "email": "Thacker.Alex@yahoo.com",
+            "proImg": "images/classmates/AlexPro.jpg",
+            "funImg": "images/classmates/AlexFun.jpg"
         },
         {
             "id": 4,
@@ -236,6 +222,20 @@
             "email": "myankura210@gmail.com",
             "proImg": "images/classmates/MichaelPro.jpg",
             "funImg": "images/classmates/MichaelFun.jpg"
+        },
+        {
+            "id": 16,
+            "firstName": "Samuel",
+            "lastName": "Britt",
+            "isHired": true,
+            "reelThemIn": "There’s nothing wrong with having a tree as a friend. - Bob Ross",
+            "bio": "I've worked in the hospitality industry for the past eight years. Throughout my time, I have become skilled at maintaining speed, efficiency, quality, and composure under intense pressure. However, at the end of the day, I work to help and serve others, but I truly live to create works of art and inspire those around me to explore their creative boundaries.</p><p class='card-text'> Since discovering the possibilities that programming provides as a creative outlet, I have found joy in creating new projects and converting abstract concepts into concrete works of art. A career in Software Development has paved a lifestyle of never-ending learning, growth, and creative expression, which is a mindset I strive to live by.",
+            "github": "https://github.com/SamBritt",
+            "linkedIn": "https://www.linkedin.com/in/sam-britt-068688a0/",
+            "portfolio": "",
+            "email": "sam.britt2@yahoo.com",
+            "proImg": "images/classmates/SamPro.jpg",
+            "funImg": "images/classmates/SamFun.jpg"
         }
     ]
 }
